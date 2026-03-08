@@ -5,7 +5,7 @@ Description: Run multiple tunnel in Python
 
 License:
 This code is permitted directly by the author, cupang-afk, for its usage in 
-the repository https://github.com/gutris1/segsmaker, authored by gutris1. 
+the repository https://github.com/N3kooz/Segsmaker_Mods, authored by gutris1. 
 Any other usage must comply with the terms of the original license provided 
 in the author's repository.
 
