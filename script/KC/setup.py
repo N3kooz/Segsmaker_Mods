@@ -246,7 +246,7 @@ def sym_link(U, M):
             'sym': [
                 f"rm -rf {M / 'checkpoints/tmp_ckpt'} {M / 'loras/tmp_lora'} {M / 'controlnet'}",
                 f"rm -rf {M / 'clip'} {M / 'clip_vision'} {M / 'diffusers'} {M / 'diffusion_models'}",
-                f"rm -rf {M / 'text_encoders'} {M / 'unet'} {M / 'vae'}",
+                f"rm -rf {M / 'text_encoders'} {M / 'unet'}",
                 f"rm -rf {M / 'animatediff_models'} {M / 'animatediff_video'} {M / 'video_models'} {TMP}/*"
             ],
             'links': [
@@ -259,11 +259,9 @@ def sym_link(U, M):
                 (TMP / 'diffusion_models', M / 'diffusion_models'),
                 (TMP / 'text_encoders', M / 'text_encoders'),
                 (TMP / 'unet', M / 'unet'),
-                (TMP / 'vae', M / 'vae'),
-                # Video Generation folders
                 (TMP / 'animatediff_models', M / 'animatediff_models'),
                 (TMP / 'animatediff_video', M / 'animatediff_video'),
-                (TMP / 'video_models', M / 'video_models'),  # Wan2.2, LTX, HunyuanVideo, CogVideoX
+                (TMP / 'video_models', M / 'video_models'),
             ]
         },
 
