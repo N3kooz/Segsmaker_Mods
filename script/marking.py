@@ -25,7 +25,8 @@ CD = os.chdir
 def purgeVAR():
     l = [
         'WebUI', 'Models', 'WebUI_Output', 'Extensions', 'Embeddings', 'UNET', 'CLIP', 'VAE',
-        'CKPT', 'LORA', 'TMP_CKPT', 'TMP_LORA', 'Forge_SVD', 'Controlnet_Widget', 'Upscalers'
+        'CKPT', 'LORA', 'TMP_CKPT', 'TMP_LORA', 'Forge_SVD', 'Controlnet_Widget', 'Upscalers',
+        'AnimateDiff', 'Video_Models'
     ]
     for v in l:
         if v in globals(): del globals()[v]
@@ -92,5 +93,7 @@ if marked.exists():
     CLIP = TMP / 'clip' if ui in ['Forge', 'ComfyUI', 'SwarmUI'] else None
     TMP_CKPT = TMP / 'ckpt'
     TMP_LORA = TMP / 'lora'
+    AnimateDiff = TMP / 'animatediff_models' if ui in ['Forge', 'ReForge', 'ComfyUI'] else None
+    Video_Models = TMP / 'video_models' if ui in ['ComfyUI', 'SwarmUI'] else None
 
     tempe()

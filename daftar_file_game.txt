@@ -1,0 +1,208 @@
+Menghitung daftar file... 
+-------------------------------------- 
+DIREKTORI: D:\1NGODING\Segsmaker 
+-------------------------------------- 
+ Volume in drive D is Disk
+ Volume Serial Number is 68C7-3389
+
+ Directory of D:\1NGODING\Segsmaker
+
+08/03/2026  15:34    <DIR>          .
+08/03/2026  15:30    <DIR>          ..
+08/03/2026  15:29    <DIR>          notebook
+08/03/2026  15:29    <DIR>          config
+08/03/2026  15:29    <DIR>          script
+08/03/2026  15:34               145 daftar_file_game.txt
+03/03/2026  19:48               372 Auto Check Directory.bat
+27/02/2026  23:07             1.064 LICENSE
+27/02/2026  23:07             1.877 README.md
+               4 File(s)          3.458 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config
+
+08/03/2026  15:29    <DIR>          .
+08/03/2026  15:34    <DIR>          ..
+08/03/2026  15:29    <DIR>          a1111
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          comfyui
+08/03/2026  15:29    <DIR>          reforge
+08/03/2026  15:29    <DIR>          forge
+08/03/2026  15:29    <DIR>          forge-classic
+08/03/2026  15:29    <DIR>          forge-neo
+27/02/2026  23:07               863 config.json
+27/02/2026  23:07             3.281 user.css
+27/02/2026  23:07            11.814 NoCrypt_miku.json
+               3 File(s)         15.958 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\a1111
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          .
+               0 File(s)              0 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\a1111\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               897 extension.txt
+               1 File(s)            897 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               882 config.json
+27/02/2026  23:07             1.223 user.css
+27/02/2026  23:07             1.482 zrun.py
+27/02/2026  23:07             1.618 zrok.py
+               4 File(s)          5.205 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\asd\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               539 asd.py
+27/02/2026  23:07               745 asd.txt
+27/02/2026  23:07               748 zorok.py
+27/02/2026  23:07             4.883 controlnet.css
+27/02/2026  23:07             7.139 gutris1.py
+27/02/2026  23:07             7.931 controlnet.py
+               6 File(s)         21.985 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\comfyui
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07             3.727 apotek.py
+               1 File(s)          3.727 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\comfyui\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               681 custom_nodes.txt
+               1 File(s)            681 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\forge
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               306 config.json
+               1 File(s)            306 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\forge\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               704 extension.txt
+               1 File(s)            704 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\forge-classic
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          .
+               0 File(s)              0 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\forge-classic\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               908 extension.txt
+               1 File(s)            908 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\forge-neo
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               316 config.json
+               1 File(s)            316 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\forge-neo\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               709 extension.txt
+               1 File(s)            709 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\reforge
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          asd
+08/03/2026  15:29    <DIR>          .
+               0 File(s)              0 bytes
+
+ Directory of D:\1NGODING\Segsmaker\config\reforge\asd
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               820 extension.txt
+               1 File(s)            820 bytes
+
+ Directory of D:\1NGODING\Segsmaker\notebook
+
+08/03/2026  15:34    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07             5.943 Segsmaker_COLAB.ipynb
+27/02/2026  23:07             8.329 Segsmaker.ipynb
+               2 File(s)         14.272 bytes
+
+ Directory of D:\1NGODING\Segsmaker\script
+
+08/03/2026  15:29    <DIR>          .
+08/03/2026  15:34    <DIR>          ..
+08/03/2026  15:29    <DIR>          preview
+08/03/2026  15:29    <DIR>          KC
+08/03/2026  15:29    <DIR>          SM
+27/02/2026  23:07             2.951 melon00.py
+27/02/2026  23:07             3.360 marking.py
+27/02/2026  23:07             6.072 gradio-tunnel.py
+27/02/2026  23:07            11.642 controlnet.css
+27/02/2026  23:07            18.822 controlnet.py
+27/02/2026  23:07            19.594 cupang.py
+27/02/2026  23:07            20.463 nenen88.py
+27/02/2026  23:07            76.678 loading.png
+               8 File(s)        159.582 bytes
+
+ Directory of D:\1NGODING\Segsmaker\script\KC
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07             1.091 00-startup.py
+27/02/2026  23:07             5.268 segsmaker.py
+27/02/2026  23:07            17.675 setup.py
+               3 File(s)         24.034 bytes
+
+ Directory of D:\1NGODING\Segsmaker\script\preview
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07         8.695.671 fastpnginfo.png
+27/02/2026  23:07        18.076.537 cn.png
+               2 File(s)     26.772.208 bytes
+
+ Directory of D:\1NGODING\Segsmaker\script\SM
+
+08/03/2026  15:29    <DIR>          ..
+08/03/2026  15:29    <DIR>          .
+27/02/2026  23:07               427 default.py
+27/02/2026  23:07               677 00-startup.py
+27/02/2026  23:07             3.581 Launcher.py
+27/02/2026  23:07             4.703 venv.py
+27/02/2026  23:07             5.318 conda.py
+27/02/2026  23:07             9.602 segsmaker.py
+27/02/2026  23:07            14.706 segsmaker.css
+27/02/2026  23:07            16.703 setup.py
+27/02/2026  23:07            17.301 util.py
+27/02/2026  23:07            20.695 setup.css
+              10 File(s)         93.713 bytes
+
+     Total Files Listed:
+              51 File(s)     27.119.483 bytes
+              62 Dir(s)  37.126.717.440 bytes free
+ 

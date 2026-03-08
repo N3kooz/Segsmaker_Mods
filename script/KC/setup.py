@@ -185,7 +185,7 @@ def sym_link(U, M):
             'sym': [
                 f"rm -rf {M / 'Stable-diffusion/tmp_ckpt'} {M / 'Lora/tmp_lora'} {M / 'ControlNet'}",
                 f"rm -rf {M / 'svd'} {M / 'z123'} {M / 'clip'} {M / 'clip_vision'} {M / 'diffusers'}",
-                f"rm -rf {M / 'diffusion_models'} {M / 'text_encoder'} {M / 'unet'} {TMP}/*"
+                f"rm -rf {M / 'diffusion_models'} {M / 'text_encoder'} {M / 'unet'} {M / 'animatediff_models'} {M / 'animatediff_video'} {TMP}/*"
             ],
             'links': [
                 (TMP / 'ckpt', M / 'Stable-diffusion/tmp_ckpt'),
@@ -198,21 +198,25 @@ def sym_link(U, M):
                 (TMP / 'diffusers', M / 'diffusers'),
                 (TMP / 'diffusion_models', M / 'diffusion_models'),
                 (TMP / 'text_encoders', M / 'text_encoder'),
-                (TMP / 'unet', M / 'unet')
+                (TMP / 'unet', M / 'unet'),
+                (TMP / 'animatediff_models', M / 'animatediff_models'),
+                (TMP / 'animatediff_video', M / 'animatediff_video'),
             ]
         },
 
         'ReForge': {
             'sym': [
                 f"rm -rf {M / 'Stable-diffusion/tmp_ckpt'} {M / 'Lora/tmp_lora'} {M / 'ControlNet'}",
-                f"rm -rf {M / 'svd'} {M / 'z123'} {TMP}/*"
+                f"rm -rf {M / 'svd'} {M / 'z123'} {M / 'animatediff_models'} {M / 'animatediff_video'} {TMP}/*"
             ],
             'links': [
                 (TMP / 'ckpt', M / 'Stable-diffusion/tmp_ckpt'),
                 (TMP / 'lora', M / 'Lora/tmp_lora'),
                 (TMP / 'controlnet', M / 'ControlNet'),
                 (TMP / 'z123', M / 'z123'),
-                (TMP / 'svd', M / 'svd')
+                (TMP / 'svd', M / 'svd'),
+                (TMP / 'animatediff_models', M / 'animatediff_models'),
+                (TMP / 'animatediff_video', M / 'animatediff_video'),
             ]
         },
 
@@ -242,7 +246,8 @@ def sym_link(U, M):
             'sym': [
                 f"rm -rf {M / 'checkpoints/tmp_ckpt'} {M / 'loras/tmp_lora'} {M / 'controlnet'}",
                 f"rm -rf {M / 'clip'} {M / 'clip_vision'} {M / 'diffusers'} {M / 'diffusion_models'}",
-                f"rm -rf {M / 'text_encoders'} {M / 'unet'} {TMP}/*"
+                f"rm -rf {M / 'text_encoders'} {M / 'unet'} {M / 'vae'}",
+                f"rm -rf {M / 'animatediff_models'} {M / 'animatediff_video'} {M / 'video_models'} {TMP}/*"
             ],
             'links': [
                 (TMP / 'ckpt', M / 'checkpoints/tmp_ckpt'),
@@ -253,21 +258,27 @@ def sym_link(U, M):
                 (TMP / 'diffusers', M / 'diffusers'),
                 (TMP / 'diffusion_models', M / 'diffusion_models'),
                 (TMP / 'text_encoders', M / 'text_encoders'),
-                (TMP / 'unet', M / 'unet')
+                (TMP / 'unet', M / 'unet'),
+                (TMP / 'vae', M / 'vae'),
+                # Video Generation folders
+                (TMP / 'animatediff_models', M / 'animatediff_models'),
+                (TMP / 'animatediff_video', M / 'animatediff_video'),
+                (TMP / 'video_models', M / 'video_models'),  # Wan2.2, LTX, HunyuanVideo, CogVideoX
             ]
         },
 
         'SwarmUI': {
             'sym': [
                 f"rm -rf {M / 'Stable-Diffusion/tmp_ckpt'} {M / 'Lora/tmp_lora'} {M / 'controlnet'}",
-                f"rm -rf {M / 'clip'} {M / 'unet'} {TMP}/*"
+                f"rm -rf {M / 'clip'} {M / 'unet'} {M / 'video_models'} {TMP}/*"
             ],
             'links': [
                 (TMP / 'ckpt', M / 'Stable-Diffusion/tmp_ckpt'),
                 (TMP / 'lora', M / 'Lora/tmp_lora'),
                 (TMP / 'controlnet', M / 'controlnet'),
                 (TMP / 'clip', M / 'clip'),
-                (TMP / 'unet', M / 'unet')
+                (TMP / 'unet', M / 'unet'),
+                (TMP / 'video_models', M / 'video_models'),
             ]
         }
     }
