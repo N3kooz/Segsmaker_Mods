@@ -94,6 +94,11 @@ def webui_launch(launch_args, skip_comfyui_check, ngrok_token=None, zrok_token=N
                 c['ffmpeg_bin_path'] = ffmpeg
                 cfg.write_text(json.dumps(c, indent=2), encoding='utf-8')
 
+            try:
+                import blake3
+            except ImportError:
+                SyS('python3 -m pip install blake3 -q')
+
             port = 8188
             skip_comfyui_check or (SyS('python3 apotek.py'), clear_output(wait=True))
             cmd = f'python3 main.py {launch_args}'
